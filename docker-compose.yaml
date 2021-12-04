@@ -31,6 +31,7 @@ services:
             - php_service
         # What ports to open
         ports:
+            - "8080:8080"
             - "80:80"
         restart: always
         # Allow nginx service to talk to node_service and php_service
